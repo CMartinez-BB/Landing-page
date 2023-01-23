@@ -152,3 +152,27 @@ section.setup .desc p{
     max-width: 28.4rem;
     margin: 0 auto;
 }
+
+/* Infromation section */
+section.information .text-information{
+    padding: 13.4rem 0;
+}
+
+section.information h5{
+    font-size: 4.2rem;
+    font-weight: 700;
+    line-height: 4.8rem;
+    color: var(--black);
+}
+
+section.information p{
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 2.8rem;
+    color: var(--grayLight);
+    padding-top: 2rem;
+}
+
+section.information .info-1{
+    padding: 18.3rem 0;
+}
