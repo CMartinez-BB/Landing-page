@@ -199,3 +199,50 @@ footer .copy{
 }
 
 /* Responsive Design */
+@media (max-width: 576px) {
+    section.hero,
+    section.setup,
+    section.information{
+        text-align: center;
+    }
+
+    /* Navbar */
+    .navbar{
+        padding: 2rem 0;
+    }
+
+    .nav-link{
+        margin-left: 0;
+    }
+
+    /* Hero section */
+    section.hero img{
+        padding-top: 4rem;
+    }
+
+    section.hero .text{
+        font-size: 3.8rem;
+        font-weight: 800;
+        line-height: 5.3rem;
+    }
+
+    .buttons .btn{
+        display: block;
+        margin: 1.6rem 0;
+    }
+
+    .buttons .ms-3{
+        margin-left: 0 !important;
+    }
+
+    /* Setup section */
+    section.setup{
+        padding: 5rem 0;
+    }
+
+    /* Footer section */
+    footer{
+        padding-top: 5rem;
+        margin-bottom: 5.4rem;
+    }
+}
